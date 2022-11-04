@@ -1,0 +1,192 @@
+.dark-mode {
+   background-color: black;
+   color: white;
+}
+
+body {
+   box-sizing: content-box;
+   margin: 0;
+   padding: 0;
+   background-color: #f0e3e1;
+   background-image: url(https://i.postimg.cc/tChwh8Yt/Untitled-design-3.png);
+   background-size: 100%;
+}
+
+li {
+   list-style: none;
+}
+
+/* Header */
+h3 {
+   color: #C28B7C;
+   font-weight: 550;
+   font-size: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+   padding-top: 5px;
+   font-family: optional;
+}
+
+/* Navbar */
+.container {
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   padding-right: 5%;
+   padding-left: 0%;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   padding: 0px 15px;
+   background-color: #d5bcb8;
+   font-family: sans-serif;
+}
+
+nav {
+   flex: 1;
+   padding-left: 950px;
+}
+
+nav ul li {
+   display: inline-block;
+   margin: 0 15px;
+}
+
+/* Icon dark mode */
+nav ul li i {
+   font-size: 25px;
+   display: flex;
+   cursor: pointer;
+   transform: translate(-50%, 25%);
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+nav li a.active {
+   color: #C28B7C;
+}
+
+nav ul li a:hover {
+   border-bottom: 3px solid #4a4e69;
+   transition: all .3s ease;
+}
+
+/* Section */
+.content {
+   margin-left: 00px;
+   border-left: 1px solid #d4d4d4;
+   padding-left: 50px;
+   padding-top: 80px;
+   overflow: hidden;
+}
+
+h1 {
+   font-family: 'Poppins', sans-serif;
+   text-transform: uppercase;
+   font-weight: 800;
+   margin-top: 100px;
+   line-height: 1.5em;
+   letter-spacing: .05em;
+   font-size: 45px;
+   color: #63767A;
+   padding-top: 10px;
+   padding-left: 25px;
+}
+
+p {
+   font-size: 16px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   padding-right: 50%;
+   padding-left: 25px;
+   margin-top: 40px;
+   margin-right: 150px;
+   /* color: #63767A; */
+}
+
+.gambar_sc {
+   display: flex;
+   position: relative;
+}
+
+/* .gambar {
+   display: flex;
+   height: 350px;
+   position: absolute;
+   width: 0.01em;
+   margin-top: -250px;
+   padding-left: 990px;
+   justify-content: flex-end;
+   size-adjust: 10%;
+} */
+
+/* .orang .gambar{
+   size-adjust: 10%;
+   padding-left: 200px;
+} */
+
+
+/* Tombol cari */
+.search {
+   width: 60%;
+   position: relative;
+   display: flex;
+}
+
+.searchTerm {
+   width: 100%;
+   border: 3px solid #63767A;
+   border-right: none;
+   padding: 5px;
+   height: 20px;
+   border-radius: 5px 0 0 5px;
+   outline: none;
+   color: #556669;
+}
+
+.searchButton {
+   width: 40px;
+   height: 36px;
+   border: 1px solid #63767A;
+   background: #63767A;
+   text-align: center;
+   color: #fff;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 20px;
+}
+
+.wrap {
+   width: 30%;
+   position: absolute;
+   top: 68%;
+   left: 73px;
+}
+
+/* Footer */
+footer {
+   position: fixed;
+   height: 50px;
+   line-height: 50px;
+   background: #d5bcb8;
+   color: #C28B7C;
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+   text-align: center;
+   font-family: optional;
+}

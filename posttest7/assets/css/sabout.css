@@ -1,0 +1,193 @@
+.dark-mode {
+   background-color: black;
+   color: white;
+}
+
+body{
+box-sizing: content-box; 
+margin: 0;
+padding: 0;
+background-color: #f0e3e1;
+}
+
+/* Header */
+h3 {
+   color: #C28B7C;
+   font-weight: 550;
+   font-size: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+   padding-top: 5px;
+   font-family: optional;
+}
+
+/* Navbar */
+.container { 
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   padding-right: 5%;
+   padding-left: 0%;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   padding: 0px 15px;
+   background-color: #d5bcb8;
+   font-family: sans-serif;
+}
+
+nav {
+   flex: 1;
+   padding-left: 950px;
+}
+nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 0 15px;
+}
+
+/* Icon dark mode */
+nav ul li i {
+  font-size: 25px;
+  display: flex;
+  cursor: pointer;
+  transform: translate(-50%, 25%);
+  /* position: fixed; */
+}
+nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+nav li a.active {
+   color: #C28B7C;
+}
+nav ul li a:hover {
+   border-bottom: 3px solid #4a4e69;
+   transition: all .3s ease;
+}
+
+
+
+/* MAIN ABOUT ME */
+
+body {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   background-image: url(https://pbs.twimg.com/media/FdkBlacaEAEWVry?format=jpg&name=large);
+   background-size: 100%;
+}
+
+/* Header */
+.container {
+   line-height: 150%;
+} 
+.gerak {
+   /* position: fixed; */
+   height: 50px;
+   line-height: 50px;
+   background: #d5bcb8;
+   color: #C28B7C;
+   position: absolute;
+   /* bottom: 0px; */
+   width: 100%;
+   text-align: center;
+   /* display: fixed;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 25px;
+   background-color: #d5bcb8;
+   width: 100%; */
+}
+.gerak h1 {
+   color: #C28B7C;
+   font-size: 30px;
+   font-family: 'Pacifico', cursive;
+   letter-spacing: .1em;
+}
+
+/* Content atau isi tengah */
+.p{
+   line-height: 1.5em;
+   letter-spacing: 0.03em;
+   font-size: 18px;
+}
+h2{
+   color: #C28B7C;
+}
+.bag_kiri {
+   float: left;
+   width: 180px;
+   margin: 0;
+   padding: 2em;
+   padding-top: 90px;
+}
+#potow{
+   padding-left: 10px;
+}
+.content {
+   padding-top: 100px;
+   margin-left: 3px;
+   border-left: 1px solid #d4d4d4;
+   padding: 1em;
+   overflow: hidden;
+}
+
+.me {
+   padding-top: 50px;
+}
+
+/* Navbar */
+/* ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+li a.active {
+   background-color: #b98981;
+   color: white;
+}
+li a:hover:not(.active) {
+   background-color: #b98981;
+   color: white;
+} */
+
+/* Bawah */
+.logo-contact{
+  display: flex;
+}
+
+.logo{
+   height: 25px;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  line-height: 50px;
+  background: #d5bcb8;
+  color: #C28B7C;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  font-family: optional;
+}

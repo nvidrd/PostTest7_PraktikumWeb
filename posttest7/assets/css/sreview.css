@@ -1,0 +1,159 @@
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(48, 46, 46);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+body{
+box-sizing: content-box;  
+margin: 0;
+padding: 0;
+background-color: #f0e3e1;
+/* background-image: url(https://pbs.twimg.com/media/FdhpYdPaAAAb6BD?format=jpg&name=large); */
+/* background-size: 100%; */
+}
+
+ 
+/* Header */
+h3 {
+   color: #C28B7C;
+   font-weight: 550;
+   font-size: 25px;
+   margin-top: 10px;
+   padding-left: 20px;
+   padding-top: 5px;
+   font-family: optional;
+}
+
+/* Navbar */
+.container { 
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   padding-right: 5%;
+   padding-left: 0%;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   width: 100%;
+   padding: 0px 15px;
+   background-color: #d5bcb8;
+   font-family: sans-serif;
+}
+nav {
+   flex: 1;
+   padding-left: 950px;
+}
+nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 0 15px;
+}
+nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+nav li a.active {
+   color: #C28B7C;
+}
+nav ul li a:hover {
+   border-bottom: 3px solid #4a4e69;
+   transition: all .3s ease;
+}
+
+/* Icon dark mode */
+nav ul li i {
+   font-size: 25px;
+   display: flex;
+   cursor: pointer;
+   transform: translate(-50%, 25%);
+   /* position: fixed; */
+ }
+
+ .content {
+   margin-left: 00px;
+   border-left: 1px solid #d4d4d4;
+   padding-left: 50px;
+   padding-top: 80px;
+   overflow: hidden;
+   outline: none;
+   /* border: none; */
+}
+
+ /* Form Input */
+#tabel_inventory tr td:nth-child(1){
+	width:180px;
+   left: 100px;
+   border: none;
+}
+#tabel_inventory tr td:nth-child(2){
+	width:220px;
+   border: none;
+}
+
+fieldset label {
+	display: inline;
+	margin: 5px 0px;
+}
+
+fieldset #nama, fieldset #nama_produk, fieldset #submit_date fieldset #date, fieldset #tempat_beli, fieldset #rate, fieldset #up_foto
+{
+	width: 100%;
+	height: 33px;
+	border: 1px solid #ddd;
+	margin: 10px 5px;
+	padding-right: px;	
+}
+
+fieldset #konten {
+   width:100%;
+	height: 100px;
+	border: 1px solid #ddd;
+	margin: 10px 5px;
+	padding-right: 500px;	
+}
+
+a:link{
+	text-decoration:none;
+}
+#btn_simpan{
+	display: inline;
+	margin-right: 10px;
+	background-color: #D9ADAD;
+	color: white;
+	border-radius:3px;
+	opacity: 0.8;
+	padding: 10px 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.button_{
+	display: inline;
+	margin-right: 10px;
+	background-color: #483D8B;
+	color: white;
+	border-radius:3px;
+	opacity: 0.8;
+	padding: 10px 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#btn_simpan:hover, .button_:hover{
+	opacity: 1;
+}
